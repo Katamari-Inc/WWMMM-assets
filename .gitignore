@@ -1,0 +1,6 @@
+/log
+build-tmp
+build
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcworkspace/contents.xcworkspacedata
