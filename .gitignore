@@ -5,3 +5,4 @@ build
 !*.xcodeproj/project.pbxproj
 !*.xcworkspace/contents.xcworkspacedata
 .DS_Store
+workspace.xml
