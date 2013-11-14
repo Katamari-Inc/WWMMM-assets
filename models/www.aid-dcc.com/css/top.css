@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/**
+* PROMOTION
+* ________________________________________
+*/
+
+#promotion {
+	padding-top:50px;
+}
+
+#slides_container{
+	width:990px;
+	display:none;
+}
+
+#slides_container div {
+	width:990px;
+	height:305px;
+	display:block;
+}
+
+#slides {
+	position:relative;
+	height:365px;
+}
+.slides_container {
+	background-position: 480px 137px !important;
+}
+#slides .slide-image {
+	display:block;
+	width:988px;
+	height: 303px;
+	border: 1px solid #ccc;
+	padding: 0;
+	background-image:none;
+}
+
+/*
+	Optional:
+	Reset list default style
+*/
+.pagination {
+	position:absolute;
+	right:0;
+	top:357px;
+	z-index:10;
+}
+
+.pagination li {
+	float:left;
+	padding-left:5px;
+}
+
+.pagination li a {
+	display:block;
+	width:8px;
+	height:0px;
+	padding-top:8px;
+	background-color:#e6e6e6;
+	overflow:hidden;	
+}
+
+
+/*
+	Optional:
+	Show the current slide in the pagination
+*/
+.pagination .current a {
+	background-color:#cc0000;
+}
+
+.caption {
+	padding-top:17px;
+	opacity: 0;	
+}
+
+.caption div {
+	float:left;
+}
+
+.caption-desc {
+	width:700px;
+}
+
+.caption-date {
+	width:290px;
+}
+
+.caption-date p {
+	position:absolute;
+	right:0;
+	top:325px;
+	line-height:1;
+}
+
+.caption h2 a {
+	color: #333;
+	background-image:none;
+	display:block;
+	height:3em;
+}
+
+.caption h2 a[href]:hover {
+	color:#cc0000;
+	text-decoration: underline;
+	background-image:none;
+}
+
+.inset-large-desc .paragraph-small {
+	top: 3.2em;
+}
+
+#ja .caption-desc h2 a,
+#ja .inset-small-desc a p,
+#ja .inset-large-title {
+	font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック','MS PGothic', sans-serif;
+}
+
+
+#en .caption-desc h2 a,
+#en .inset-small-desc a p,
+#en .inset-large-title {
+	font-family: arial, verdana, helvetica, sans-serif;
+}
+
+.inset-large {
+	height: 354px;
+}
